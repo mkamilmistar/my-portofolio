@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './Card.css';
 
 function Card({title,imgURL,body,small,link}) {
@@ -21,7 +22,14 @@ function Card({title,imgURL,body,small,link}) {
             
             <div className="btn">
                 <button>
-                    <a href={link} target="_blank">Code</a>
+                <Link
+                    to={link}
+                    className="card-name"
+                    target='_blank'
+                >
+                    Code
+                </Link>
+                    {/* <a href={link} target="_blank">Code</a> */}
                 </button>
             </div>
         </div>

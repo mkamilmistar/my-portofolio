@@ -102,7 +102,7 @@ h3,p{
     border-radius: 3px;
 }
 
-a{
+.link-card{
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;

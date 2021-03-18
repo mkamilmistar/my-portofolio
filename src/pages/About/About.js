@@ -92,7 +92,7 @@ function About() {
                         desc=" An extension of the BEM KM in communicating with IPB
                         students, namely through digital media and social media and
                         participating in introducing IPB to the community"
-                        img="images/bemkm.jpg"
+                        imgURL="images/bemkm.jpg"
                     />
                 </div>
                 <div className="section3">                    
@@ -104,7 +104,7 @@ function About() {
                         publications, and responsible for digital design to support the
                         entire work program of BEM PPKU
                         "
-                        img="images/bemppku.jpg"
+                        imgURL="images/bemppku.jpg"
                     />
                 </div>
                 <div className="section4">                    
@@ -114,7 +114,7 @@ function About() {
                         section="2018-2019"
                         desc="IT-TODAY is a national event organized by IPB University that carries all technology-based competitions and activities. The events held include AppsToday, HackToday, National IT Seminar, Business Plan competition.
                         "
-                        img="images/ittoday19.jpg"
+                        imgURL="images/ittoday19.jpg"
                     />
                 </div>
                 <div className="section5">                    
@@ -124,7 +124,7 @@ function About() {
                         section="2017-2018"
                         desc="IT-TODAY is a national event organized by IPB University that carries all technology-based competitions and activities. The events held include AppsToday, HackToday, National IT Seminar, Business Plan competition.
                         "
-                        img="images/ittoday18.jpg"
+                        imgURL="images/ittoday18.jpg"
                     />
                 </div>
             </div>
