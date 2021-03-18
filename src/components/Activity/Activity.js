@@ -7,7 +7,7 @@ function Activity({title, job, section, desc, imgURL}) {
         <>
             <div className="activity-container">
                 <div className="activity-left">
-                    <img src={imgURL} alt="image"/>
+                    <img src={imgURL} alt=""/>
                 </div>
                 <div className="activity-right">
                     <div className="activity-title">
