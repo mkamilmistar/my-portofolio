@@ -1,0 +1,172 @@
+
+.card-text{
+    text-align: center;
+}
+
+.section1{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #1c2237;
+    padding-bottom: 80px;
+}
+
+.section2{
+    background-color: #fff;
+}
+
+.section3{
+    padding-top: 55px;
+    background-color: #222831;
+    color: #fff !important;
+}
+.section3 h3{
+    color: #fff;
+}
+.section3 p{
+    color: #fff;
+}
+.section4{
+    padding-top: 55px;
+    background-color: #f4f4f4;
+}
+
+.section4 p, h3{
+    color: #282828;
+}
+.section5{
+    padding-top: 55px;
+    background-color: #1c2237;
+    color: #fff;
+}
+
+.section5 p{
+    color: #fff;
+}
+.section5 h3{
+    color: #fff;
+}
+
+.card2-container{
+    width: 700px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in-out;
+    margin-bottom: 30px;
+    border-radius:10px;
+}
+
+.social-icons2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+
+.social-icon-link2 {
+    color: #838383;
+    font-size: 24px;
+}
+
+.social-media2 {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.social-media-wrap2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 25px auto 0 auto;
+}
+
+.img2-container{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img2-container img{
+    overflow: hidden;
+    margin-left: -1px;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.card2-content{
+    margin: 1rem;
+    margin-top: 0.3rem;
+}
+
+h3,p{
+    margin: 0;
+    padding: 0;
+    color: #282828;
+}
+
+.card2-title{
+    padding: 15px 0px;
+}
+.card2-title h3{
+    font-size: 28px;
+    text-align: center;
+    color: #282828 !important;
+}
+
+.card2-small{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.card2-body{
+    text-align: justify;
+    text-align-last: center;
+    padding: 0px 20px;
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+}
+
+.btn2 button{
+    padding: 0.5rem;
+    background-color: #282828;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    border-radius: 3px;
+    
+}
+
+.btn2 button:hover{
+    background: #282828;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 3px;
+}
+
+a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .card2-container{
+        width: 80%;
+    }
+
+    .card2-title{
+        padding: 15px 15px;
+    }
+}

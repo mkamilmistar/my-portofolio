@@ -1,0 +1,12 @@
+.title-container{
+    padding: 40px 0px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #282828;
+}
+
+:root{
+    background-color: #f4f4f4;
+}
