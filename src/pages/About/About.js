@@ -32,7 +32,9 @@ function About() {
                                 <h3>Hi, I'm M. Kamil but you can call me Emil</h3>
                             </div>
                             <div className="card2-body">
-                                <p>I am a final year of Computer Science student currently completing research. I handle <b>Front-End Web and Mobile Development</b>. I have high motivation to learn new things, have high enthusiasm, honest, and take responsibility for assignments and work</p>
+                                <p>I am a final year of Computer Science student currently completing research. 
+                                    I handle <b>Front-End Web and Mobile Development</b>. I have high motivation to learn new things, 
+                                    have high enthusiasm, honest, and take responsibility for assignments and work</p>
                             </div>
                             <div className="logo">
                                 <section className='social-media2'>

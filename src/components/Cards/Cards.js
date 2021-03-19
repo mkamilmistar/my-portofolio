@@ -5,14 +5,14 @@ function Cards() {
     let imgURL=[
         'https://lh3.googleusercontent.com/pw/ACtC-3dxlFWYdixO3X7y2T78jZPIw_bTcV5XXEkDh4m3DqPg5ULRRykpmBnx2EOBL-xq-7a1Yha8Rq5AD_v3aI4CWDCBXqIlbHc_crHKnBkyn80glLr7bUbC--wgMf7eQrVNW0vN48buqWLYro-31NaB1sED=w1187-h667-no',
         'https://lh3.googleusercontent.com/pw/ACtC-3caZNIaRnD1i3eLqLrFFufBnc-swshog1UlFeuN_DpOx6zeR7so8G4dAwWAfJ8w7tuOSjuuZpat6OZWGmMWSkEl5AAi1QO6QlIcAhyaddb2NJOp_i2gUflkpAOascO836F3BlNvFz1VEszu40cNv68m=w1187-h667-no',
-        'https://lh3.googleusercontent.com/pw/ACtC-3cItSthCFq8S1jWZEwxktewFGk3Rdf9tYmZRduknh3UXLpUCaPE5Otl94v3-Z3bcbkxn4SKcRObY73OPrXFQ-tUPlWhjRAa3Rf876lQ2mJynDr3dL95LOb4ALPPsckw3KsyS9ur4joQZDTjg4UlaMuX=w1187-h667-no'
+        'https://lh3.googleusercontent.com/pw/ACtC-3cItSthCFq8S1jWZEwxktewFGk3Rdf9tYmZRduknh3UXLpUCaPE5Otl94v3-Z3bcbkxn4SKcRObY73OPrXFQ-tUPlWhjRAa3Rf876lQ2mJynDr3dL95LOb4ALPPsckw3KsyS9ur4joQZDTjg4UlaMuX=w1187-h667-no',
     ];
     return (
         <div className="project">
             <Card 
                 title="Patroli Karhutla"
                 imgURL="images/karhutla.gif"
-                body="The Karhutla Patrol application is used for the data collection process by an 
+                body="The Karhutla Patrol mobile application is used for the data collection process by an 
                 integrated patrol team in the field. In the Karhutla Patrol application, there are 
                 features to fill out reports, view reports, and visualize hotspots obtained from the Sipongi 
                 application and server owned by Kementerian Lingkungan Hidup dan Kehutanan (KLHK).

@@ -4,7 +4,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     logo: true,
     headline: 'M Kamil',
-    topLine: 'Software Engineer',
+    topLine: 'Software Developer',
     description: 'Bringing ideas to life one code at a time',
     buttonLabel: 'View project',
     imgStart: '',
