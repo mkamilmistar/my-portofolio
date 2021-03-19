@@ -2,6 +2,11 @@ import React from 'react'
 import Card from './CardUI'
 
 function Cards() {
+    let imgURL=[
+        'https://lh3.googleusercontent.com/pw/ACtC-3dxlFWYdixO3X7y2T78jZPIw_bTcV5XXEkDh4m3DqPg5ULRRykpmBnx2EOBL-xq-7a1Yha8Rq5AD_v3aI4CWDCBXqIlbHc_crHKnBkyn80glLr7bUbC--wgMf7eQrVNW0vN48buqWLYro-31NaB1sED=w1187-h667-no',
+        'https://lh3.googleusercontent.com/pw/ACtC-3caZNIaRnD1i3eLqLrFFufBnc-swshog1UlFeuN_DpOx6zeR7so8G4dAwWAfJ8w7tuOSjuuZpat6OZWGmMWSkEl5AAi1QO6QlIcAhyaddb2NJOp_i2gUflkpAOascO836F3BlNvFz1VEszu40cNv68m=w1187-h667-no',
+        'https://lh3.googleusercontent.com/pw/ACtC-3cItSthCFq8S1jWZEwxktewFGk3Rdf9tYmZRduknh3UXLpUCaPE5Otl94v3-Z3bcbkxn4SKcRObY73OPrXFQ-tUPlWhjRAa3Rf876lQ2mJynDr3dL95LOb4ALPPsckw3KsyS9ur4joQZDTjg4UlaMuX=w1187-h667-no'
+    ];
     return (
         <div className="project">
             <Card 
@@ -17,7 +22,7 @@ function Cards() {
             />
             <Card
                 title="YukZakat"
-                imgURL="images/yukzakat.png"
+                imgURL={imgURL[0]}
                 body="This web application is equipped with an online zakat payment feature and a zakat calculator. This zakat calculator can show that the congregation's assets have not reached the limit (nishab) and when it has reached the nishab, it will show how much zakat must be paid.
                 "
                 small="Bootstrap (Frontend) + Laravel (Backend)"
@@ -25,7 +30,7 @@ function Cards() {
             />
             <Card 
                 title="Website Desa Pekan Kamis"
-                imgURL="images/pekankamis.png"
+                imgURL={imgURL[1]}
                 body="This website is a means of publication to provide information and an overview of the potential of Pekan Kamis, Tembilahan Hulu, Indragiri Hilir, Riau villages as well as improving services to the public to access information.
                 "
                 small="Wordpress"
@@ -33,7 +38,7 @@ function Cards() {
             />
             <Card
                 title="SIMAS ASRAMA SCB"
-                imgURL="images/simas.png"
+                imgURL={imgURL[2]}
                 body="The Management Information System for SMP Cendekia Baznas is the management of dormitory activities, including memorization records, good and bad notes, points of violation by SCB students.
                 "
                 small="Bootstrap (Frontend) + Laravel (Backend)"

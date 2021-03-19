@@ -12,13 +12,20 @@ import './About.css';
 
 
 function About() {
+    let imgURL=[
+        'https://lh3.googleusercontent.com/pw/ACtC-3c_4RcRc_OD9uLCrmKFwoyct7ZbSsT0QNMdivGgwZUmhAI1gvbSZ7Mv8VedrWWnTEz2EgYNHfFJcwdWDECk0PN8NYlOhhFc7PZsUdoyWAqHsyr7ooFL9abd-bmh7IKlyJRyEaQNY-yJ5gughSPbcVy7=w559-h667-no',
+        'https://lh3.googleusercontent.com/pw/ACtC-3dSSNVERCErvzK2Ya2UORDgqhiX9QXy9-dlGGlb3ooB2pjXQCJMEWziakiZ67YcRhcOTf-DT2ppVt8maBdqq_RpGlwTjdCmoSE8QXbUurvwWVqVzGPiWwosTzRvfnxIhYExdcdniLDQD9VfSzVZjo9B=w1001-h667-no',
+        'https://lh3.googleusercontent.com/pw/ACtC-3c88cOfcA1jJS-t9Sxr3DK5r8rJvqz4IOLT8TCfRfFOpIqmmVefzRrExzex-n8H8sbc8dC07mPEMQYdVUO8jX1SzgonUC7Mh0e5ulW0Db_P5_2jdWqf26t3qFKZlUnqz0vD0X5yZA2XCzswPJPXZK-A=w1001-h667-no',
+        'https://lh3.googleusercontent.com/pw/ACtC-3e5gQ-zlFTsKvrLs_jGlC_aHWzlGm3IUSw-s0ZMjreMAMUERoJdx53klTIZ-lNKINwYTac7tV2uiV9e2-j6vit8VRZT6VpwVLjQJHP1r_jpqAudCnHReXXdScqczG8PWAXQR-Jp5QDFV50DMSchYhfL=w1188-h667-no',
+        'https://lh3.googleusercontent.com/pw/ACtC-3diArrnWXXJxfMPc38Yo7snr9zefMDotOWi6Raa1rMHvueVzREaLTpLq2Rq2aUz5mNVhtr17HxnhhLt52FEkgdzapdAJhF4bofX74sDzD7RctyWOnufMXqKbxtfutIYsDbQl3mAj9neZw3nI_E6ne06=w1001-h667-no'
+    ];
     return (
         <>
             <div className="about-container">
                 <div className="section1">
                     <div className="card2-container">
                         <div className="img2-container">
-                            <img src="images/emil.jpg" alt=""/>
+                            <img src={imgURL[0]} alt=""/>
                         </div>
                         <div className="card2-content">
                             <div className="card2-title">
@@ -92,7 +99,7 @@ function About() {
                         desc=" An extension of the BEM KM in communicating with IPB
                         students, namely through digital media and social media and
                         participating in introducing IPB to the community"
-                        imgURL="images/bemkm.jpg"
+                        imgURL={imgURL[1]}
                     />
                 </div>
                 <div className="section3">                    
@@ -104,7 +111,7 @@ function About() {
                         publications, and responsible for digital design to support the
                         entire work program of BEM PPKU
                         "
-                        imgURL="images/bemppku.jpg"
+                        imgURL={imgURL[2]}
                     />
                 </div>
                 <div className="section4">                    
@@ -114,7 +121,7 @@ function About() {
                         section="2018-2019"
                         desc="IT-TODAY is a national event organized by IPB University that carries all technology-based competitions and activities. The events held include AppsToday, HackToday, National IT Seminar, Business Plan competition.
                         "
-                        imgURL="images/ittoday19.jpg"
+                        imgURL={imgURL[3]}
                     />
                 </div>
                 <div className="section5">                    
@@ -124,7 +131,7 @@ function About() {
                         section="2017-2018"
                         desc="IT-TODAY is a national event organized by IPB University that carries all technology-based competitions and activities. The events held include AppsToday, HackToday, National IT Seminar, Business Plan competition.
                         "
-                        imgURL="images/ittoday18.jpg"
+                        imgURL={imgURL[4]}
                     />
                 </div>
             </div>
